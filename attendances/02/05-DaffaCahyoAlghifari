@@ -1,0 +1,17 @@
+Di minggu kedua, kita belajar Layout XML Dasar. Untuk mendesainnya diperlukan sebuah Linear Layout, yakni alat pemodel paling umum. 
+Alat tersebut berfungsi menyediakan sebuath model box yang mirip Box-Layout-nya Java-Swing. 
+Berikut wadah yang paling lazim digunakan di Android berdasarkan PPT yang diberikan sekaligus penjelasan Linear Layout itu sendiri:
+1. Linear Layout, adalah sebuah box model, widgets atau wadah child yang dibariskan dalam bentuk kolom atau baris, secara sejajar. 
+   Untuk mengkonfigurasi LinearLayout, terdapat lima area kontrol utama selain konten wadah:
+	a. Orientation
+	b. Fill model
+	c. Weight
+	d. Gravity
+	e. Padding
+	f. Margin
+2. Relative Layout, fungsinya menempatkan widget berdasarkan hubungannya dengan widget lain dalam wadah biasa dan wadah parent.
+3. Table Layout, dapat memposisikan widget dalam sebuah grid yang terbuat dari baris-kolom teridentifikasi. Kolomnya sendiri bisa menyusut dan menegang sesuai kontennya.
+4. ScrollView Layout, jika memiliki terlalu banyak data hingga tidak muat ditunjukkan layar maka gunakan kontrol ScrollView. Menyuguhkan akses geser atau gulir ke data. 
+   Dengan demikian pengguna hanya bisa melihat sebagian layout di satu waktu, tetapi sisanya bisa dilihat dengan digeser.
+5. Absolute Layout, layout yang membuat pemrogram bisa menspesifikkan lokasi tertentu (koordinat x / y) dari children-nya. 
+   Absolute layout kurang fleksibel dan lebih sulit ditangani ketimbang layout tipe lain tanpa pemposisian absolut.
